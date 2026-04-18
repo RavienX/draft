@@ -95,6 +95,7 @@ Error generating stack: `+e.message+`
   }
   .page-banner-inner {
     width: 100%; max-width: 1400px; padding: 70px 5% 60px; position: relative; z-index: 1;
+    text-align: center; display: flex; flex-direction: column; align-items: center;
   }
   .page-banner::after {
     content: ''; position: absolute; right: -60px; top: -60px;
@@ -110,7 +111,7 @@ Error generating stack: `+e.message+`
     font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 700; line-height: 1.15;
     margin-bottom: 16px;
   }
-  .page-banner p { font-size: 1rem; color: rgba(255,255,255,0.82); max-width: 560px; line-height: 1.65; }
+  .page-banner p { font-size: 1rem; color: rgba(255,255,255,0.82); max-width: 620px; line-height: 1.65; text-align: center; }
 
   /* ── SECTION UTILS ── */
   .section { padding: 72px 0; width: 100%; display: flex; justify-content: center; }
